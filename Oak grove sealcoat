@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Oak Grove Sealcoating | Driveway Sealcoating Services</title>
+
+<!-- SEO -->
+<meta name="description" content="Oak Grove Sealcoating provides professional driveway sealcoating, crack filling, and edge work. Free quotes available.">
+<meta name="keywords" content="sealcoating, driveway sealing, asphalt sealing, crack filling, Oak Grove sealcoating">
+<meta name="author" content="Oak Grove Sealcoating">
+
+<style>
+body {
+  margin:0;
+  font-family:Arial;
+  background:#0e0e0e;
+  color:white;
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  padding:15px 25px;
+  background:black;
+  border-bottom:2px solid #f5c542;
+  position:sticky;
+  top:0;
+}
+
+.logo {
+  color:#f5c542;
+  font-weight:bold;
+}
+
+nav a {
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+nav a:hover { color:#f5c542; }
+
+.hero {
+  text-align:center;
+  padding:100px 20px;
+  background:linear-gradient(120deg,#111,#000);
+}
+
+.hero h1 {
+  font-size:44px;
+  color:#f5c542;
+}
+
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 20px;
+  background:#f5c542;
+  color:black;
+  font-weight:bold;
+  border-radius:6px;
+  text-decoration:none;
+}
+
+section {
+  padding:60px 20px;
+  max-width:1000px;
+  margin:auto;
+}
+
+h2 { color:#f5c542; }
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:15px;
+}
+
+.card {
+  background:#1c1c1c;
+  padding:20px;
+  border-left:3px solid #f5c542;
+  border-radius:8px;
+}
+
+/* GALLERY */
+.img {
+  height:180px;
+  background:#333;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:8px;
+  color:#aaa;
+}
+
+/* FORM */
+input, textarea {
+  width:100%;
+  padding:12px;
+  margin:8px 0;
+  border:none;
+  border-radius:6px;
+  background:#1c1c1c;
+  color:white;
+}
+
+button {
+  background:#f5c542;
+  border:none;
+  padding:12px 18px;
+  font-weight:bold;
+  cursor:pointer;
+  border-radius:6px;
+}
+
+/* MAP */
+iframe {
+  width:100%;
+  height:300px;
+  border:none;
+  border-radius:10px;
+}
+
+footer {
+  text-align:center;
+  padding:25px;
+  opacity:0.7;
+  border-top:1px solid #222;
+}
+
+/* CALL BUTTON */
+.call {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#f5c542;
+  color:black;
+  padding:14px 16px;
+  border-radius:50px;
+  font-weight:bold;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Oak Grove Sealcoating</div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Quote</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Professional Driveway Sealcoating</h1>
+  <p>Clean edges • Long-lasting protection • Affordable pricing</p>
+  <a class="btn" href="#contact">Get Free Quote</a>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card">Sealcoating Driveways</div>
+    <div class="card">Crack Filling</div>
+    <div class="card">Edge Cutting & Cleanup</div>
+    <div class="card">Residential & Small Commercial</div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>Before & After Work</h2>
+  <div class="grid">
+    <div class="img">Before Photo</div>
+    <div class="img">After Photo</div>
+    <div class="img">Edge Work</div>
+    <div class="img">Finished Driveway</div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Choose Us</h2>
+  <div class="grid">
+    <div class="card">✔ Professional finish</div>
+    <div class="card">✔ Reliable scheduling</div>
+    <div class="card">✔ Competitive pricing</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Get a Free Quote</h2>
+
+  <!-- 🔥 FORMSPREE FORM (replace URL below after setup) -->
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+    <textarea name="message" placeholder="Tell us about your driveway..." required></textarea>
+    <button type="submit">Send Quote Request</button>
+  </form>
+</section>
+
+<section>
+  <h2>Location</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18..."></iframe>
+</section>
+
+<footer>
+  © 2026 Oak Grove Sealcoating
+</footer>
+
+<a class="call" href="tel:5551234567">📞 Call Now</a>
+
+</body>
+</html>
